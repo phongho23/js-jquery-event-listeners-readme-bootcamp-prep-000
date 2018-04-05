@@ -17,6 +17,15 @@ function frameIt(){
     );
 }
 
+function pressIt(){
+  $('form').on("submit", 
+  function submitAlert() {
+    alert("Your form is going to be submitted now.");
+    return;
+  }
+    );
+}
+
 function submitIt(){
   $('form').on("submit", 
   function submitAlert() {
