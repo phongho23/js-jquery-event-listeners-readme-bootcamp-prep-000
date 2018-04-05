@@ -17,10 +17,20 @@ function frameIt(){
     );
 }
 
+function submitIt(){
+  $('form').on("submit", 
+  function loadImg() {
+    //insert code;  
+    return;
+  }
+    );
+}
+
+
 $(document).ready(function(){
 
 getIt();
-
+frameIt();
 
 });
 
