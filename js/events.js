@@ -19,8 +19,8 @@ function frameIt(){
 
 function submitIt(){
   $('form').on("submit", 
-  function loadImg() {
-    //insert code;  
+  function submitAlert() {
+    alert("Your form is going to be submitted now.");
     return;
   }
     );
