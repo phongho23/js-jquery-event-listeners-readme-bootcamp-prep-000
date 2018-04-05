@@ -4,6 +4,7 @@ function getIT(){
   $('p').on("click", 
   function clickP() {
     alert("Hey!");
+    return;
   }
     );
 }
