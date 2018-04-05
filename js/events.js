@@ -9,8 +9,8 @@ function getIt(){
 }
 
 function frameIt(){
-  $('p').on("click", 
-  function clickP() {
+  $('img').on("load", 
+  function loadImg() {
     alert("Hey!");
   }
     );
