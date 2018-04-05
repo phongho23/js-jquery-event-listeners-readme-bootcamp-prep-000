@@ -1,7 +1,10 @@
 //define functions here
 
 function getIT(){
-  $('p').on(
+  $('p').on("click", 
+  function clickP() {
+    alert("Hey!");
+  }
     );
 }
 
