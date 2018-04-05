@@ -19,6 +19,11 @@ function frameIt(){
 
 $(document).ready(function(){
 
+function getIt();
+
+
+});
+
 // notes below this
 /
 
